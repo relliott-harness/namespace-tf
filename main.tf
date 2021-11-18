@@ -1,7 +1,7 @@
 provider "kubernetes" {
 }
 
-resource "kubernetes_namespace" "example" {
+resource "kubernetes_namespace" "pr" {
   metadata {
     annotations = {
       name = var.annotation
